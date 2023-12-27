@@ -153,6 +153,12 @@ nav {
   position: relative;
   left: -100px;
 }
+
+@media (max-width: 768px) {
+  .photo{
+    left: 0px;
+  }
+}
 .watch-video-button {
   margin-left: 2rem;
   background-color: transparent;
