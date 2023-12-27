@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="mission" className="about-section-container">
       <div className="about-background-image-container">
-        <img  src={AboutBackground} alt="" />
+        <img className={"display"} src={AboutBackground} alt="" />
       </div>
       <div className="about-section-image-container">
         <img className={"photo"} src={AboutBackgroundImage} alt="" />
